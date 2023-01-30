@@ -19,7 +19,7 @@ const Portfolio = () => {
             <img src={IMG1} alt="project 1" />
           </div>
           <h3>Super Mario Saiyans</h3>
-          {/* <small className='text-light'>Classic 2D sidescroller game</small> */}
+          <small className='text-light'>Classic 2D sidescroller game built with HTML5, CSS and JavaScript.</small>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/connorGA/Super-Mario-Knockoff" className='btn' target='_blank'>Github</a>
             <a href="https://connorga.github.io/Super-Mario-Knockoff/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -31,7 +31,8 @@ const Portfolio = () => {
             <img src={IMG2} alt="project 1" />
           </div>
           <h3>SongSearch</h3>
-          {/* <small className='text-light'>Classic 2D sidescroller game</small> */}
+          <small className='text-light'>Search for any song and curate your own playlists! Built with Node.js, PostgreSQL, and Genius' API.</small>
+          <small className='text-light'>Test View - Email: useremail@fake.com Password: fakepassword </small>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/connorGA/Song-Search" className='btn' target='_blank'>Github</a>
             <a href="https://genius-songsearch.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
@@ -43,6 +44,7 @@ const Portfolio = () => {
             <img src={IMG3} alt="project 1" />
           </div>
           <h3>TalkTotal</h3>
+          <small className='text-light'>Chatroom site built with Python, Django, and PostgreSQL.</small>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/connorGA/TalkTotal" className='btn' target='_blank'>Github</a>
             <a href="https://talktotal.herokuapp.com" className='btn btn-primary' target='_blank'>Live Demo</a>
