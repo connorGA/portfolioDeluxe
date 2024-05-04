@@ -22,13 +22,17 @@ const About = () => {
             <article className='about__card'>
               <FaAward className='about__icon' />
               <h5>Experience</h5>
-              <small>General Assembly's SE Immersive Bootcamp</small>
+              <small>Python Developer at The Arc of San Diego</small>
             </article>
 
             <article className='about__card'>
               <ImBooks className='about__icon' />
               <h5>Education</h5>
-              <small>University of California, Santa Barbara Bachelor of Communication</small>
+              <ul>
+                <li><small>General Assembly's Software Engineering Bootcamp</small></li>
+                <li>-</li>
+                <li><small>University of California, Santa Barbara Bachelor of Communications</small></li>
+              </ul>
             </article>
 
             <article className='about__card'>
@@ -38,8 +42,7 @@ const About = () => {
             </article>
           </div>
           <p>
-           I am excited to launch my career in a field that cultivates continual learning and rewards dedication and hard work. The gratification I’ve felt from completing personal projects has made me eager to contribute to larger projects that solve real world problems. With my background, I can provide a strong work ethic and cooperative attitude, which I believe will make me a valuable asset to any team.
-
+            I'm thrilled to embark on my journey in a field that thrives on continuous learning and values perseverance and dedication. Over the past two years I've gained valuable experience as a Python developer that has solidified my passion for coding and problem-solving. I'm confident that my blend of experience and enthusiasm positions me as a valuable asset, ready to make meaningful contributions and grow alongside like-minded professionals.
           </p>
 
           <a href="#contact" className='btn btn-primary'>Let's Talk</a>
