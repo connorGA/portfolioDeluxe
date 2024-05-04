@@ -3,7 +3,7 @@ import './portfolio.css'
 import IMG1 from '../../assets/SuperMarioSaiyans.png'
 import IMG2 from '../../assets/SongSearch.png'
 import IMG3 from '../../assets/TalkTotal.png'
-import IMG4 from '../../assets/portfolio6.jpg'
+import IMG4 from '../../assets/airhouse.png'
 import IMG5 from '../../assets/DevMeme.png'
 import IMG6 from '../../assets/portfolio6.jpg'
 
@@ -55,10 +55,11 @@ const Portfolio = () => {
           <div className="portfolio__item-image">
             <img src={IMG4} alt="project 1" />
           </div>
-          <h3>Coming Soon!</h3>
+          <h3>Airhouse Clone</h3>
+          <small className='text-light'>Inventory management dashboard built with Django, AWS RDS PostgreSQL database, Bootstrap, and a sprinkle of JavaScript.</small>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/connorGA/Airhouse_Clone" className='btn' target='_blank'>Github</a>
+            <a href="https://airhouse-clone-0cd160f36786.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
