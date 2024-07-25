@@ -1,6 +1,6 @@
 import React from 'react'
 import './experience.css'
-import {BsPatchCheckFill} from 'react-icons/bs'
+import { FaAws } from "react-icons/fa";
 import {AiFillHtml5} from 'react-icons/ai'
 import {TbBrandCss3} from 'react-icons/tb'
 import {SiJavascript} from 'react-icons/si'
@@ -12,6 +12,7 @@ import {SiMongodb} from 'react-icons/si'
 import {FaPython} from 'react-icons/fa'
 import {DiDjango} from 'react-icons/di'
 import {SiFlask} from 'react-icons/si'
+import { SiRubyonrails } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -70,6 +71,27 @@ const Experience = () => {
         <div className="experience__backend">
         <h3>Backend Development</h3>
           <div className="experience__content">
+          <article className='experience__details'>
+              <FaPython className='experience__details-icon' />
+              <div>
+                <h4>Python</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <DiDjango className='experience__details-icon' />
+              <div>
+                <h4>Django</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
+            <article className='experience__details'>
+              <SiRubyonrails className='experience__details-icon' />
+              <div>
+                <h4>Ruby on Rails</h4>
+                {/* <small className='text-light'>Experienced</small> */}
+              </div>
+            </article>
             <article className='experience__details'>
               <FaNodeJs className='experience__details-icon' />
               <div>
@@ -78,9 +100,9 @@ const Experience = () => {
               </div>
             </article>
             <article className='experience__details'>
-              <BsPatchCheckFill className='experience__details-icon' />
+              <FaAws className='experience__details-icon' />
               <div>
-                <h4>Express JS</h4>
+                <h4>AWS</h4>
                 {/* <small className='text-light'>Intermediate</small> */}
               </div>
             </article>
@@ -99,26 +121,13 @@ const Experience = () => {
               </div>
             </article>
             <article className='experience__details'>
-              <FaPython className='experience__details-icon' />
-              <div>
-                <h4>Python</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
-              <DiDjango className='experience__details-icon' />
-              <div>
-                <h4>Django</h4>
-                {/* <small className='text-light'>Experienced</small> */}
-              </div>
-            </article>
-            <article className='experience__details'>
               <SiFlask className='experience__details-icon' />
               <div>
                 <h4>Flask</h4>
                 {/* <small className='text-light'>Experienced</small> */}
               </div>
             </article>
+            
           </div>
         </div>
       </div>

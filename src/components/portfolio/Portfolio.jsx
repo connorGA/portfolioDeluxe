@@ -56,7 +56,7 @@ const Portfolio = () => {
             <img src={IMG4} alt="project 1" />
           </div>
           <h3>Airhouse Clone</h3>
-          <small className='text-light'>Inventory management dashboard built with Django, AWS RDS PostgreSQL database, Bootstrap, and a sprinkle of JavaScript.</small>
+          <small className='text-light'>Inventory management dashboard built with Django, AWS RDS, PostgreSQL, Bootstrap, and a sprinkle of JavaScript.</small>
           <div className='portfolio__item-cta'>
             <a href="https://github.com/connorGA/Airhouse_Clone" className='btn' target='_blank'>Github</a>
             <a href="https://airhouse-clone-0cd160f36786.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
