@@ -5,7 +5,7 @@ import IMG2 from '../../assets/SongSearch.png'
 import IMG3 from '../../assets/TalkTotal.png'
 import IMG4 from '../../assets/airhouse.png'
 import IMG5 from '../../assets/DevMeme.png'
-import IMG6 from '../../assets/portfolio6.jpg'
+import IMG6 from '../../assets/plantpal.png'
 
 const Portfolio = () => {
   return (
@@ -14,15 +14,40 @@ const Portfolio = () => {
       <h2>Portfolio</h2>
 
       <div className="container portfolio__container">
+
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG1} alt="project 1" />
+            <img src={IMG4} alt="project 1" />
           </div>
-          <h3>Super Mario Saiyans</h3>
-          <small className='text-light'>Classic 2D sidescroller game built with HTML5, CSS and JavaScript.</small>
+          <h3>Airhouse Clone</h3>
+          <small className='text-light'>Inventory management dashboard built with Django, AWS RDS, PostgreSQL, Bootstrap, and a sprinkle of JavaScript.</small>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com/connorGA/Super-Mario-Knockoff" className='btn' target='_blank'>Github</a>
-            <a href="https://connorga.github.io/Super-Mario-Knockoff/" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/connorGA/Airhouse_Clone" className='btn' target='_blank'>Github</a>
+            <a href="https://airhouse-clone-0cd160f36786.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG6} alt="project 1" />
+          </div>
+          <h3>PlantPal</h3>
+          <small className='text-light'>Manage your plant collection! Customize your collection and view a variety of plant data including ideal watering and light conditions. Set timers and get alerts when you need to water. Built with Ruby on Rails, JavaScript, jQuery, and PostgreSQL.</small>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/connorGA/PlantPal" className='btn' target='_blank'>Github</a>
+            <a href="https://plant-pal-rails-51d3a7717106.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
+          </div>
+        </article>
+
+        <article className='portfolio__item'>
+          <div className="portfolio__item-image">
+            <img src={IMG3} alt="project 1" />
+          </div>
+          <h3>TalkTotal</h3>
+          <small className='text-light'>Chatroom site built with Python, Django, and PostgreSQL.</small>
+          <div className='portfolio__item-cta'>
+            <a href="https://github.com/connorGA/TalkTotal" className='btn' target='_blank'>Github</a>
+            <a href="https://talktotal.herokuapp.com" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
 
@@ -41,30 +66,6 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG3} alt="project 1" />
-          </div>
-          <h3>TalkTotal</h3>
-          <small className='text-light'>Chatroom site built with Python, Django, and PostgreSQL.</small>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/connorGA/TalkTotal" className='btn' target='_blank'>Github</a>
-            <a href="https://talktotal.herokuapp.com" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
-            <img src={IMG4} alt="project 1" />
-          </div>
-          <h3>Airhouse Clone</h3>
-          <small className='text-light'>Inventory management dashboard built with Django, AWS RDS, PostgreSQL, Bootstrap, and a sprinkle of JavaScript.</small>
-          <div className='portfolio__item-cta'>
-            <a href="https://github.com/connorGA/Airhouse_Clone" className='btn' target='_blank'>Github</a>
-            <a href="https://airhouse-clone-0cd160f36786.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
-          </div>
-        </article>
-
-        <article className='portfolio__item'>
-          <div className="portfolio__item-image">
             <img src={IMG5} alt="project 1" />
           </div>
           <h3>DevMeme</h3>
@@ -77,14 +78,17 @@ const Portfolio = () => {
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
-            <img src={IMG6} alt="project 1" />
+            <img src={IMG1} alt="project 1" />
           </div>
-          <h3>Coming Soon!</h3>
+          <h3>Super Mario Saiyans</h3>
+          <small className='text-light'>Classic 2D sidescroller game built with HTML5, CSS and JavaScript.</small>
           <div className='portfolio__item-cta'>
-            <a href="https://github.com" className='btn' target='_blank'>Github</a>
-            <a href="https://github.com" className='btn btn-primary' target='_blank'>Live Demo</a>
+            <a href="https://github.com/connorGA/Super-Mario-Knockoff" className='btn' target='_blank'>Github</a>
+            <a href="https://connorga.github.io/Super-Mario-Knockoff/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
         </article>
+
+        
 
         
 
