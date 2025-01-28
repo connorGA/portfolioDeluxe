@@ -39,7 +39,7 @@ const Portfolio = () => {
           </div>
         </article>
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG3} alt="project 1" />
           </div>
@@ -49,9 +49,9 @@ const Portfolio = () => {
             <a href="https://github.com/connorGA/TalkTotal" className='btn' target='_blank'>Github</a>
             <a href="https://talktotal.herokuapp.com" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article>
+        </article> */}
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG2} alt="project 1" />
           </div>
@@ -62,9 +62,9 @@ const Portfolio = () => {
             <a href="https://github.com/connorGA/Song-Search" className='btn' target='_blank'>Github</a>
             <a href="https://genius-songsearch.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article>
+        </article> */}
 
-        <article className='portfolio__item'>
+        {/* <article className='portfolio__item'>
           <div className="portfolio__item-image">
             <img src={IMG5} alt="project 1" />
           </div>
@@ -74,7 +74,7 @@ const Portfolio = () => {
             <a href="https://github.com/connorGA/DevMeme" className='btn' target='_blank'>Github</a>
             <a href="https://devmeme.herokuapp.com/" className='btn btn-primary' target='_blank'>Live Demo</a>
           </div>
-        </article>
+        </article> */}
 
         <article className='portfolio__item'>
           <div className="portfolio__item-image">
